@@ -104,3 +104,69 @@ p {
     color: #1F2937;
 }
 
+.quote {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.quoteauthor {
+    font-family: 'Rubik', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.bxquote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgb(219, 219, 219);
+    margin-top: 80px;
+}
+
+.bxcta {
+    background-color: #006aff;
+    display: flex;
+}
+
+.ctatitle {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+
+.ctabtn {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    border: 10;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+    /* gradient IE6+     */
+    background: rgb(59,56,246);
+    background: -moz-linear-gradient(0deg, rgba(59,56,246,1) 0%, rgba(56,130,246,1) 49%, rgba(56,184,246,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(59,56,246,1) 0%, rgba(56,130,246,1) 49%, rgba(56,184,246,1) 100%);
+    background: linear-gradient(0deg, rgba(59,56,246,1) 0%, rgba(56,130,246,1) 49%, rgba(56,184,246,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3b38f6",endColorstr="#38b8f6",GradientType=1);
+
+    border-radius: 20px;
+    color: white;
+    border-color: rgb(161, 216, 241);
+    border-width: 4px;
+    border-style: solid;
+    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.162);
+
+    transition: all ease-in-out 500ms;
+}
+
+.ctabtn:hover {
+    scale: 1.1;
+    box-shadow: 0px 20px 20px rgba(0, 170, 255, 0.437);
+}
+
+.bxctaleft {
+    display: flex;
+    flex-direction: column;
+}
