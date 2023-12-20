@@ -128,6 +128,12 @@ p {
 .bxcta {
     background-color: #006aff;
     display: flex;
+    margin: 20px;
+    border-radius: 10px;
+    border-color: rgb(85, 172, 243);
+    border-style: solid;
+    border-width: 5px;
+    justify-content: space-evenly;
 }
 
 .ctatitle {
@@ -137,6 +143,13 @@ p {
 }
 
 .ctabtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: left;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
     font-family: 'Rubik', sans-serif;
     font-weight: 500;
     border: 10;
@@ -169,4 +182,7 @@ p {
 .bxctaleft {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    padding-top: 20px;
+    flex-grow: 0.7;
 }
